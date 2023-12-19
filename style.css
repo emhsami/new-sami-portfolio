@@ -166,3 +166,10 @@ nav ul li {
     margin: 0 auto;
     padding-bottom: 50ox;
 }
+
+
+/*---------------------------- resume styles */
+
+.resume-container{
+    display: flex;
+}
