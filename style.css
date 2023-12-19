@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+p {
+    color: var(--Dark-03, #757575);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+:root {
+    --primaryColor: #FD6E0A;
+    --backgroundColor: #FFF8F3;
+    --textColor: #474747;
+    --fontColor: #757575;
+}
+
+button {
+    width: 150px;
+    height: 64px;
+    border-radius: 5px;
+    background-color: var(--primaryColor);
+    color: #fff;
+    border: none;
+    font-size: 20px;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* -------- Header and Nav bar Styles */
+header {
+    background: #FFF8F3;
+    padding-top: 50px;
+    background-image: url(images/header_bg.png), url(images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 230px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 50px;
+}
+
+.sami-name {
+    color: var(--primaryColor);
+}
+
+/* -------- Banner Styles */
+.sami {
+    width: 800px;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    margin-left: 230px;
+}
+
+.sub-title {
+    color: var(--textColor);
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.banner-title {
+    color: #000;
+    font-size: 85px;
+    font-weight: 700;
+}
+
+/* ------------------- About Section */
+.nd-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-section {
+    margin-top: 130px;
+    width: 1140px;
+    text-align: center;
+    /* margin-left: 240px; */
+    background: var(--backgroundColor);
+    padding: 130px 156px 130px 156px;
+}
+
+.about-title {
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+
+.about-info {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    gap: 50px;
+}
+
+
+
+
+/* -------------------------- skill section */
+.do-sect{
+    margin-top: 130px;
+    margin-bottom: 160px;
+}
+
+.skill-section {
+    /* width: 1140px; */
+    text-align: center;
+}
+
+.skill-title {
+    margin-bottom: 130px;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    padding-top: 50px;
+}
+
+.skill-card {
+    text-align: left;
+    width: 267px;
+    height: 377px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.skill-description{
+    width: 1140px;
+    margin: 0 auto;
+    padding-bottom: 50ox;
+}
